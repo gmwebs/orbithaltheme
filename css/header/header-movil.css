@@ -29,7 +29,7 @@ header .header-menu-navegacion {
 
 
 header .menu-navegacion-botones--contenedor {
-  position: absolute;
+  position: fixed;
   width: auto;
   top: auto;
   left: auto;
