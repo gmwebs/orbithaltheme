@@ -25,6 +25,7 @@ header .header-menu-navegacion {
   width: 100%;
   height: 100vh;
   background-color: rgba(0 , 0, 0, 0.6);
+  z-index: 900;
 }
 
 
@@ -38,6 +39,8 @@ header .menu-navegacion-botones--contenedor {
   border: 1px solid #9f9f9f;
   border-radius: 10px;
   background-color: white;
+  z-index: 1000;
+  display: none;
 }
 
 header .menu-navegacion-botones--contenedor ul {
@@ -74,6 +77,10 @@ header .header-menu-boton--contenedor img {
 }
 
 #holis:checked ~ .header-menu-navegacion {
+  display: block;
+}
+
+#holis:target ~ .menu-navegacion-botones--contenedor {
   display: block;
 }
 
