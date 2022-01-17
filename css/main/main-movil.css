@@ -1,0 +1,39 @@
+main .titulo-principal-h1 {
+  width: 100%;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+main .titulo-principal-h1 h1 {
+  font-family: 'Quattrocento', serif;
+  font-weight: bold;
+  font-size: 4.3rem;
+  line-height: 5.4rem;
+  width: 90%;
+  margin: auto;
+}
+
+main .main-seccion-uno {
+  width: 100%;
+  margin-top: 30px;
+}
+
+main .main-seccion-uno--contenedor {
+  width: 90%;
+  margin: auto;
+}
+
+main .main-seccion-uno--contenedor h2 {
+  font-family: 'Quattrocento', serif;
+  font-weight: bold;
+  line-height: 4.8rem;
+  font-size: 3.7rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+main .main-seccion-uno--contenedor p {
+  font-weight: 300;
+  font-size: 1.9rem;
+  line-height: 2.8rem;
+}
